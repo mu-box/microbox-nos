@@ -1,9 +1,9 @@
-# Nos [![Build Status Image](https://travis-ci.org/nanobox-io/nanobox-nos.svg)](https://travis-ci.org/nanobox-io/nanobox-nos)
-A bash library and framework to expedite Nanobox engine development.
+# Nos [![Build Status Image](https://github.com/mu-box/microbox-nos/actions/workflows/ci.yaml/badge.svg)](https://github.com/mu-box/microbox-nos/actions)
+A bash library and framework to expedite Microbox engine development.
 
 ## Installation
 
-No installation is required, Nanobox build containers have Nos pre-installed.
+No installation is required, Microbox build containers have Nos pre-installed.
 
 ## Usage
 
@@ -19,7 +19,7 @@ To use Nos, simply source the common.sh script and initialize the framework.
 nos_init $@
 ```
 
-For an overview of how and when to use Nos, please refer to the [Nanobox Common Tasks](http://docs.nanobox.io/engines/common-tasks/) guide.
+For an overview of how and when to use Nos, please refer to the [Microbox Common Tasks](https://docs.microbox.cloud/engines/common-tasks/) guide.
 
 ## API
 

@@ -1,4 +1,4 @@
-FROM nanobox/build:v1
+FROM mubox/build:v1
 
 # clear out old nos, make directory for nos
 RUN rm -rf /opt/nos && \

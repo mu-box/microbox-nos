@@ -2,7 +2,7 @@
 
 UUID=$(cat /proc/sys/kernel/random/uuid)
 
-pass "unable to start the $VERSION container" docker run --privileged=true -d --name $UUID nanobox/build-nos sleep 365d
+pass "unable to start the $VERSION container" docker run --privileged=true -d --name $UUID mubox/build-nos sleep 365d
 
 defer docker kill $UUID
 
